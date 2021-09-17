@@ -1,0 +1,208 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    width: 100%;
+}
+p {
+    font-weight: 300;
+    color: #111;
+}
+.banner {
+    width: 100%;
+    
+    min-height: 65vh;
+    position: relative;
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+  background-color: #c84c4c;
+    background-size: cover;
+}
+.banner .content {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    margin-top: -25px;
+
+}
+.banner .content h1 {
+    font-family: Cursive;
+    margin-top: 50px;
+    font-size: 4em;
+    color: #fff;
+}
+.banner .content p {
+    font-size: 1.4em;
+    color: #fff;
+}
+
+header {
+   
+    top: -30;
+    left: 0;
+    width: 100%;
+    padding: 9px 60Px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #c84c4c;
+  
+    }
+    .logo {
+        
+        color: #FFF;
+        font-weight: 600;
+        font-size: 2em;
+        text-decoration: none;
+        }
+
+        .scanPart{
+                margin-top: 30px;
+            display: flex;
+           bottom: 40px;
+        }
+        .inputSt{
+            
+            padding: 16px 20px;
+            
+            width: 42em;
+            text-align: left;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            text-align: left; 
+            margin: 8px 0;
+        }
+        .button {
+            margin-top: 8px;
+            height: 3em;
+            background-color: #c84c4c;
+            border-radius: 8px;
+            border: none;
+            color: white;
+            width: 100px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 10px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+          }
+          .button:hover {
+            background-color: #FFF;
+            color: #000;
+          }
+        
+
+          .TechContainer{
+              display: flex;
+          }
+          .col1,.col3{width: 20%;}
+          .col2{
+              width: 60%;
+              border-right: 2px solid #ddd;
+              border-left: 2px solid #ddd;
+              height: 100%;
+              padding: 0.9%;
+          }
+
+@media screen and (max-width: 767px) {
+    section {
+        padding: 10px;
+   }
+    .banner {
+        position: relative;
+        width: 100%;
+        min-height: 41vh;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+   }
+    .banner .content {
+
+        margin: auto;
+        width: 100%;
+      margin-top: -2px;
+   }
+    .banner .content h1 {
+        font-family: Cursive;
+        font-size: 45px;
+        margin-top: 0px;
+        color: #fff;
+   }
+    .banner .content p {
+        font-size: 16px;
+        color: #fff;
+   }
+
+   header {
+    padding: 5px 10px;
+    }
+    .logo {
+    margin-top: 5px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1em;
+    height: 70px;
+    text-decoration: none;
+    }
+
+    .logo img{
+        width: 73px;
+        margin: 10px;
+    }
+    .scanPart{
+        margin-left: 8%;
+        display: flex;
+        position: absolute;
+       bottom: 40px;
+    }
+    .inputSt{
+        
+        padding: 16px 20px;
+        
+        width: 20em;
+        text-align: left;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        text-align: left; 
+        margin: 8px 0;
+
+        
+    }
+    .button {
+        margin-top: 8px;
+        height: 3em;
+        background-color: #c84c4c;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        width: 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 10px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+      .button:hover {
+        background-color: #FFF;
+        color: #000;
+      }
+      .col1,.col3{display: none;}
+      .col2{
+          width: 100%;
+      }
+    
+}
+
