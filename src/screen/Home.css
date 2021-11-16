@@ -67,8 +67,9 @@ header {
 
         .scanPart{
                 margin-top: 30px;
-            display: flex;
-           bottom: 40px;
+                 display: flex;
+                  bottom: 40px;
+                  justify-content: center;
         }
         .inputSt{
             
